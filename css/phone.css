@@ -1,0 +1,51 @@
+/* mobile devices  */
+@media only screen and (min-width: 0px) and (max-width:300px) {
+    body {
+        color: blue;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        margin-right: 2rem;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    body {
+        color: blue;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        margin-right: 2rem;
+    }
+}
+
+/* ipads, tablets  */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        color: yellow;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-right: 2rem;
+
+    }
+}
+
+/* small screen laptops  */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    body {
+        color: green;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-right: 2rem;
+    
+
+    }
+}
+
+/* desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    body {
+        color: green;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-right: 2rem;
+
+    }
+}
